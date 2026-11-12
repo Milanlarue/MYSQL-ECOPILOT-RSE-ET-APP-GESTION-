@@ -1,0 +1,52 @@
+Compte rendu sur l’utilisation de l’intelligence artificielle dans le projet
+
+
+Dans le cadre de ce projet, j’ai utilisé l’intelligence artificielle, notamment Claude (Anthropic), comme outil d’assistance à différentes étapes du développement. Son utilisation m’a permis de mieux comprendre certaines notions, de corriger mes erreurs et d'améliorer la qualité du code produit.
+
+1. Aide à la création de la base de données
+
+J’ai commencé par rédiger moi-même le script de création de la base de données sous MySQL à partir de mon schéma relationnel.
+
+J’ai ensuite utilisé Claude pour m'expliquer certaines contraintes SQL, notamment CHECK, AUTO_INCREMENT, ON DELETE et ON UPDATE, dont certaines n'avaient pas été abordées en cours.
+
+Grâce à ses explications, j’ai pu mieux comprendre leur fonctionnement et les intégrer correctement dans mon script. J’ai également corrigé moi-même les différentes erreurs rencontrées, principalement des fautes de frappe et des erreurs liées aux contraintes.
+
+
+
+
+2. Peuplement de la base de données
+
+
+
+J’ai utilisé Claude Sonnet 5.5, en mode réflexion élevée, pour m'aider à préparer le peuplement de ma base de données.
+
+J’ai notamment utilisé une méthode appelée méta-prompting, qui consiste à demander à une IA de rédiger un prompt destiné à une autre conversation.
+
+J’ai ensuite ouvert une nouvelle conversation et fourni ce prompt accompagné de mon schéma relationnel. Cela m'a permis d'obtenir un script SQL contenant des données entièrement fictives, respectant les volumes et les contraintes demandés dans le projet.
+
+J’ai ainsi pu disposer d'un jeu de données cohérent pour tester mes requêtes SQL.
+
+
+
+
+3. Aide à la réalisation des requêtes SQL
+
+J’ai écrit manuellement mes requêtes SQL dans MySQL. J’ai ensuite utilisé Claude comme outil de relecture et d'assistance afin de :
+
+Vérifier que mes requêtes répondaient bien aux attentes de l'énoncé.
+
+Discuter de mes hypothèses et vérifier la logique de mes solutions.
+
+Comprendre l'origine de certaines erreurs, notamment les jointures incomplètes, les filtres manquants, les tris absents ou encore le mauvais ordre des blocs dans le fichier.
+
+Obtenir des exemples et des propositions de correction pour améliorer mes requêtes.
+
+
+
+
+4. Relecture et finalisation du projet
+
+À la fin du projet, j’ai de nouveau utilisé Claude  pour effectuer une relecture globale du code.
+
+
+Je lui ai également demandé de m'aider à ajouter et à améliorer les commentaires dans le code, afin de rendre les différentes parties du projet plus compréhensibles et de faciliter leur lecture.
